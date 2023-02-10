@@ -36,7 +36,7 @@ app.get('/furniture', (req, res) => {
 })
 
 //=5==Winter EssentialsWinter Essentials======
-app.get('/essentialsWinter', (req, res) => {
+app.get('/essentialswinter', (req, res) => {
     fs.readFile('essentialswinter.json', 'utf-8', (err, result) => {
         res.send(result)
     })
