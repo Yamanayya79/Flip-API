@@ -23,20 +23,20 @@ app.get('/grocery', (req, res) => {
 })
 //====3====Electronics product=========
 
-app.get('/Electronics', (req, res) => {
+app.get('/electronics', (req, res) => {
     fs.readFile('Electronics.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //===4====Furniture.& more=======
-app.get('/Furniture', (req, res) => {
+app.get('/furniture', (req, res) => {
     fs.readFile('Furniture.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 
 //=5==Winter EssentialsWinter Essentials======
-app.get('/EssentialsWinter', (req, res) => {
+app.get('/essentialsWinter', (req, res) => {
     fs.readFile('EssentialsWinter.json', 'utf-8', (err, result) => {
         res.send(result)
     })
