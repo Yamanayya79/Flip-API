@@ -19,27 +19,27 @@ app.get('/location', (req, res) => {
 })
 //==2=======Grocery=========
 app.get('/grocery', (req, res) => {
-    fs.readFile('Grocery.json', 'utf-8', (err, result) => {
+    fs.readFile('grocery.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //====3====Electronics product=========
 
-app.get('/Electronics', (req, res) => {
-    fs.readFile('Electronics.json', 'utf-8', (err, result) => {
+app.get('/electronics', (req, res) => {
+    fs.readFile('electronics.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //===4====Furniture.& more=======
-app.get('/Furniture', (req, res) => {
-    fs.readFile('Furniture.json', 'utf-8', (err, result) => {
+app.get('/furniture', (req, res) => {
+    fs.readFile('furniture.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 
 //=5==Winter EssentialsWinter Essentials======
-app.get('/EssentialsWinter', (req, res) => {
-    fs.readFile('EssentialsWinter.json', 'utf-8', (err, result) => {
+app.get('/essentialswinter', (req, res) => {
+    fs.readFile('essentialswinter.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
