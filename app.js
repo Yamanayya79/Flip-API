@@ -24,13 +24,13 @@ app.get('/grocery', (req, res) => {
 //====3====Electronics product=========
 
 app.get('/electronics', (req, res) => {
-    fs.readFile('Electronics.json', 'utf-8', (err, result) => {
+    fs.readFile('electronics.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //===4====Furniture.& more=======
 app.get('/furniture', (req, res) => {
-    fs.readFile('Furniture.json', 'utf-8', (err, result) => {
+    fs.readFile('furniture.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
