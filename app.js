@@ -17,7 +17,7 @@ app.get('/location', (req, res) => {
 })
 //==2=======Grocery=========
 app.get('/grocery', (req, res) => {
-    fs.readFile('Grocery.json', 'utf-8', (err, result) => {
+    fs.readFile('grocery.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
