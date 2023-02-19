@@ -13,6 +13,6 @@
                (8) /dress
                (9) /location
                (10) /Furniture
-               <tr> |</tr>
+               <tr> /product</tr>
             
       </table>
