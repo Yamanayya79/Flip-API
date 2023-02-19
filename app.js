@@ -17,6 +17,13 @@ app.get('/location', (req, res) => {
         res.send(result)
     })
 })
+////
+
+app.get('/product', (req, res) => {
+    fs.readFile('products.json', 'utf-8', (err, result) => {
+        res.send(result)
+    })
+})
 //==2=======Grocery=========
 app.get('/grocery', (req, res) => {
     fs.readFile('grocery.json', 'utf-8', (err, result) => {
